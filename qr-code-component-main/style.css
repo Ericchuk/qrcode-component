@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    align-items: center;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+article{
+    background-color: hsl(0, 0%, 100%);
+    border-radius:20px;
+    margin:30px 20%;
+    padding:20px;
+    line-height: 1.4em;
+}
+
+article img{
+    width:100%;
+    border-radius:10px;
+}
+
+article h3{
+    font-size :155%;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    margin:25px 10px;
+}
+
+article p{
+    font-size: 19px;
+    font-weight: 400;
+    margin:25px 15px;
+    font-family: 'Outfit', sans-serif;
+    color:hsl(220, 15%, 55%);
+}
+
+
+.attribution{ 
+        font-size: 14px; 
+        text-align: center;
+}       
+.attribution a { 
+        color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width:375px){
+    article{
+        margin:30px 20px;
+    }
+    article h3{
+        font-size :22px;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 700;
+        margin:25px 5px;
+        /* border:2px solid black; */
+    }
+
+    article p{
+        font-size:15px;
+    }
+    
+}
+
+@media screen and (min-width:1000px){
+    article{
+        margin:5% 25%;
+        padding:30px 30px 20px;
+        max-width: 100%;
+    }
+
+    
+
+    article h3{
+        font-size:230%;
+        margin:25px 30px;
+        padding:20px 25px 20px 10%;
+        white-space: wrap;
+        max-width: 700px;
+        position: relative;
+        line-height: 2.5rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    article p{
+        font-size:150%;
+        margin:30px 40px;
+        max-width: 600px;
+        padding:10px 70px 10px 10%;
+        text-align: center;
+        line-height: 2rem;
+    }
+}
